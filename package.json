@@ -1,0 +1,30 @@
+{
+    "name": "todo_backend_server",
+    "version": "1.0.0",
+    "description": "BackEnd REST API using ExpressJS, Mongoose, MongoDB",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "devStart": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/alexbalak21/Todo_BackEnd_Server.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/alexbalak21/Todo_BackEnd_Server/issues"
+    },
+    "homepage": "https://github.com/alexbalak21/Todo_BackEnd_Server#readme",
+    "dependencies": {
+        "express": "^4.17.2",
+        "mongoose": "^6.1.6"
+    },
+    "devDependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^11.0.0",
+        "nodemon": "^2.0.15"
+    }
+}
